@@ -4,7 +4,7 @@ homepage "vagrantup.com"
 
 replaces        "vagrant"
 install_path    "/opt/vagrant"
-build_version   Omnibus::BuildVersion.new.semver
+build_version   "1.2.2"
 build_iteration 1
 
 # creates required build directories
