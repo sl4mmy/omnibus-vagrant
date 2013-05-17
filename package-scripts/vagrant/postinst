@@ -6,7 +6,7 @@
 
 PROGNAME=$(basename $0)
 DEST_DIR=/opt/vagrant
-PREFIX=/usr
+PREFIX=/usr/local
 
 function error_exit
 {

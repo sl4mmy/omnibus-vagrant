@@ -7,7 +7,7 @@ PROGNAME=`basename $0`
 INSTALLER_DIR=`dirname $0`
 DEST_DIR=/opt/vagrant
 USAGE="usage: $0"
-PREFIX=/usr
+PREFIX=/usr/local
 
 error_exit()
 {

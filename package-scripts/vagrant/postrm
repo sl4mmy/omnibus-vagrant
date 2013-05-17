@@ -4,7 +4,7 @@
 # after package is uninstalled.
 #
 
-PREFIX=/usr
+PREFIX=/usr/local
 
 # Clean up binary symlinks if they exist
 rm -f $PREFIX/bin/vagrant
