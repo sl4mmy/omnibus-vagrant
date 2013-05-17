@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# Perform necessary vagrant setup steps
+# after package is installed.
+#
+
+PROGNAME=$(basename $0)
+INSTALLER_DIR=/opt/vagrant
+PREFIX=/usr
+
+function error_exit
+{
+  echo "${PROGNAME}: ${1:-"Unknown Error"}" 1>&2
+  exit 1
+}
+
+ln -fns $INSTALLER_DIR/bin/vagrant $PREFIX/bin || error_exit "Cannot link vagrant to $PREFIX/bin"
+
+echo "Thank you for installing vagrant!"
+
+exit 0

@@ -1,0 +1,11 @@
+bin/
+files/**/cache/
+pkg/
+vendor/bundle
+vendor/cookbooks
+.bundle
+.ruby-gemset
+.ruby-version
+.rvmrc
+.vagrant
+*.gem
