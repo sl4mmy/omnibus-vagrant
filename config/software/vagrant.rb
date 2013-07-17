@@ -12,5 +12,5 @@ relative_path "vagrant"
 build do
   bundle "install"
   bundle "exec rake build"
-  gem "install pkg/vagrant-1.2.4.gem --no-rdoc --no-ri"
+  gem "install pkg/vagrant-#{version.sub(/^v/, "")}.gem --no-rdoc --no-ri"
 end
