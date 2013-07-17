@@ -1,7 +1,7 @@
 GIT
-  remote: git://github.com/opscode/omnibus-software.git
-  revision: 4f3c3de740b0674aae288e27c148a7d240f1c9b5
-  branch: master
+  remote: git://github.com/sl4mmy/omnibus-software.git
+  revision: b5583d1acc5bc68af5f611aef7fa365d548b93c7
+  branch: fix-openssl-docs-with-perl-5.18
   specs:
     omnibus-software (0.0.1)
 
