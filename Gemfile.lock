@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/sl4mmy/omnibus-software.git
-  revision: b5583d1acc5bc68af5f611aef7fa365d548b93c7
+  revision: fe1366085dba6f1c5f95a60360368d206841d011
   branch: fix-openssl-docs-with-perl-5.18
   specs:
     omnibus-software (0.0.1)
