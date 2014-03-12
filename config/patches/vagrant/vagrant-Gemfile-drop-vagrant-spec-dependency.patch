@@ -1,0 +1,12 @@
+--- vagrant/Gemfile.orig	2014-03-07 12:54:31.229949868 -0600
++++ vagrant/Gemfile	2014-03-07 12:56:37.078884425 -0600
+@@ -1,9 +1,3 @@
+ source "http://rubygems.org"
+ 
+ gemspec
+-
+-if File.exist?(File.expand_path("../../vagrant-spec", __FILE__))
+-  gem 'vagrant-spec', path: "../vagrant-spec"
+-else
+-  gem 'vagrant-spec', git: "https://github.com/mitchellh/vagrant-spec.git"
+-end
