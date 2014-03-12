@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "omnibus"
-gem "omnibus-software", :git => "git://github.com/sl4mmy/omnibus-software.git", :branch => "fix-openssl-docs-with-perl-5.18"
+gem "omnibus", ">= 2.0.0rc1"
+gem "omnibus-software", :git => "git://github.com/opscode/omnibus-software.git"
