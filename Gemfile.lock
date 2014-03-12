@@ -1,6 +1,7 @@
 GIT
-  remote: git://github.com/opscode/omnibus-software.git
-  revision: cec940b8ead011510d5801d98c9fd178ef3f0dba
+  remote: git://github.com/sl4mmy/omnibus-software.git
+  revision: cfa308998bc5e24ec93595f1274a5d0d2a2e94ae
+  branch: add-gmp
   specs:
     omnibus-software (0.0.1)
 

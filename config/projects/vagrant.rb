@@ -4,11 +4,14 @@ homepage "vagrantup.com"
 
 replaces        "vagrant"
 install_path    "/opt/vagrant"
-build_version   "1.4.3"
+build_version   "1.5.0"
 build_iteration 1
 
 # creates required build directories
 dependency "preparation"
+
+# Require Ruby v2.1.1
+override :ruby, :version => "2.1.1"
 
 # vagrant dependencies/components
 dependency "vagrant"

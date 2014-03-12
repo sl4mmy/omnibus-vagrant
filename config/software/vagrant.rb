@@ -1,5 +1,5 @@
 name "vagrant"
-version "v1.4.3"
+version "v1.5.0"
 
 dependency "ruby"
 dependency "rubygems"
