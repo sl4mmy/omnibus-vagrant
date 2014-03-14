@@ -4,7 +4,7 @@ homepage "vagrantup.com"
 
 replaces        "vagrant"
 install_path    "/opt/vagrant"
-build_version   "1.5.0"
+build_version   "1.5.1"
 build_iteration 1
 
 # creates required build directories
