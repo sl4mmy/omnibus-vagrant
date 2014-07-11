@@ -22,5 +22,6 @@ cp -R $INSTALLER_DIR $DEST_DIR || error_exit "Cannot install to $DEST_DIR"
 rm -f $DEST_DIR/$PROGNAME
 
 ln -fns $DEST_DIR/bin/vagrant $PREFIX/bin || error_exit "Cannot link vagrant to $PREFIX/bin"
+ln -fns $DEST_DIR/embedded/ssl/certs/cacert.pem $PREFIX/embedded/cacert.pem || error_exit "Cannot link cacert.pem to $PREFIX/embedded"
 
 exit 0

@@ -15,6 +15,7 @@ function error_exit
 }
 
 ln -fns $DEST_DIR/bin/vagrant $PREFIX/bin || error_exit "Cannot link vagrant to $PREFIX/bin"
+ln -fns $DEST_DIR/embedded/ssl/certs/cacert.pem $PREFIX/embedded/cacert.pem || error_exit "Cannot link cacert.pem to $PREFIX/embedded"
 
 echo "Thank you for installing vagrant!"
 
