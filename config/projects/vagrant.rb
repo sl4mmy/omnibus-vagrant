@@ -2,7 +2,6 @@ name "vagrant"
 maintainer "Kent R. Spillner"
 homepage "vagrantup.com"
 
-replaces        "vagrant"
 install_path    "/opt/vagrant"
 build_version   "1.6.3"
 

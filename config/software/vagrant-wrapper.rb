@@ -1,5 +1,5 @@
 name "vagrant-wrapper"
-version "v1.1"
+default_version "v1.1"
 
 source :git => "git://github.com/sl4mmy/vagrant-wrapper"
 
