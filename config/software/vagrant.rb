@@ -1,5 +1,5 @@
 name "vagrant"
-default_version "v1.6.3"
+default_version "v1.6.5"
 
 dependency "ruby"
 dependency "rubygems"

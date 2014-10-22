@@ -2,8 +2,8 @@ name "vagrant"
 maintainer "Kent R. Spillner"
 homepage "vagrantup.com"
 
-install_path    "/opt/vagrant"
-build_version   "1.6.3"
+install_dir    "/opt/vagrant"
+build_version   "1.6.5"
 
 # creates required build directories
 dependency "preparation"
