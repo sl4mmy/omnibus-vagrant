@@ -3,7 +3,7 @@ maintainer "Kent R. Spillner"
 homepage "vagrantup.com"
 
 install_dir    "/opt/vagrant"
-build_version   "1.6.5"
+build_version   "1.7.2"
 
 # creates required build directories
 dependency "preparation"
